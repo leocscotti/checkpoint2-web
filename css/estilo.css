@@ -1,86 +1,24 @@
+@import url("./cabecalho.css");
+@import url("./rodape.css");
+@import url("./conteudo.css");
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+@font-face{
+    font-family: 'Towards';
+    src: url(../Towards/towards_-webfont.woff2) format('woff2'),
+         url(../Towards/towards_-webfont.woff) format('woff');
+}
 html{
     font-size: 62.5%;
 }
 
-.tit-sec{
-    text-align: center;
-    font-size: 5rem;
-    margin: 5% 0;
-}
 
-.cabecalho {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: #14141a;
-    height: 23vh;
-}
-
-.cabecalho img {
-    width: 30%;
-    max-width: 30%;
-    display: block;
-}
-
-.cabecalho nav {
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-    height: 100%;
-    flex-wrap: wrap;
-}
-
-.cabecalho a {
-    text-decoration: none;
-    color: #ec145c;
-    text-align: center;
-    font-size: 4em;
-    font-family:system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    font-weight: 650;
-    top: auto;
-}
-
-.cabecalho a:hover {
-    background-color: #fff;
-    color: #000000;
-}
-
-.conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 50vw;
-    margin: 0 auto;
-}
-
-.conteudo img {
-    max-width: 100%;
-    display: block;
-}
-
-/* 
-Utilizando as propriedades especificas
-GROW/BASIS/SHRINK */
-.conteudo>div {
-    /* flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px; */
-    flex: 1 1 300px;
-}
-
-.conteudo table{
-    border-collapse:  collapse;
-}
-
-.conteudo table th,td{
-    border: 2px solid #000000;
-}
 .rodape{
     display: flex;
     background-color: #d9d9d9;

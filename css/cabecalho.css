@@ -1,0 +1,39 @@
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #14141a;
+    height: 18vh;
+}
+
+.cabecalho img {
+    width: 30%;
+    max-width: 30%;
+    display: block;
+}
+
+.cabecalho nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #ec145c;
+    padding: 0%;
+    position: relative;
+    top: 35%;
+    font-size: 3em;
+    font-family: 'Towards', sans-serif;
+    font-weight: 450;
+}
+
+.cabecalho a:hover {
+    color: #fff;
+}

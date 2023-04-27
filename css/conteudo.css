@@ -1,0 +1,27 @@
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+div img {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    height: 260px;
+}
+
+
+div{
+    width: 410px;
+    justify-content: space-around;
+    border: 2px solid #1b0202;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background-color: #992626;
+}
