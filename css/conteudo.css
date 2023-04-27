@@ -19,9 +19,16 @@ div img {
 div{
     width: 410px;
     justify-content: space-around;
-    border: 2px solid #1b0202;
+    border: 6px solid #202130;
     border-radius: 30px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 16px;
-    background-color: #992626;
+    background-color: #3a0000;
+}
+div h2{
+    font-family:  "Gotham HTF";
+    font-size: 34px;
+}
+.games{
+    font-family:  "Gotham HTF";
 }

@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #8d8d8d;
+}
+
 @font-face{
     font-family: 'Towards';
     src: url(../Towards/towards_-webfont.woff2) format('woff2'),
