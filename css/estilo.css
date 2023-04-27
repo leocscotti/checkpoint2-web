@@ -1,0 +1,57 @@
+@import url("./cabecalho.css");
+@import url("./rodape.css");
+@import url("./conteudo.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Towards';
+    src: url(../Towards/towards_-webfont.woff2) format('woff2'),
+         url(../Towards/towards_-webfont.woff) format('woff');
+}
+html{
+    font-size: 62.5%;
+}
+
+
+.rodape{
+    display: flex;
+    background-color: #d9d9d9;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape h2{
+    flex-grow: 2;
+    flex-basis: 100px;
+    text-align: center;
+}
+
+.rodape nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape nav a{
+    flex-grow: 1;
+    padding: 5% 0;
+}
+
+.rodape nav a:hover{
+    background-color: rgba(75, 72, 72, 0.664);
+}
+
+
+.rodape nav img{
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+}
