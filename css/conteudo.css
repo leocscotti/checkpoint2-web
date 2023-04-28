@@ -2,6 +2,7 @@
 .conteudo {
     display: flex;
     margin: 5%;
+
     justify-content: center;
 }
 
@@ -13,7 +14,7 @@ div img {
     justify-content: space-around;
     align-items: center;
     width: 330px;
-    height: 230px;
+    height: 180px;
 }
 
 
@@ -40,7 +41,7 @@ div h2{
 
 }
 div figure figcaption{
-    color: white;
+    color: rgb(0, 0, 0);
     font-family:  "Gotham HTF";
     text-align: center;
     font-size: 16px
