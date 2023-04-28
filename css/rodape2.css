@@ -1,0 +1,29 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    height: 300px;
+    align-items: center;
+    margin-bottom: 0%;
+    bottom: 0%;
+}
+
+.rodape h2{
+    color: #fff;
+    font-family: "Gotham HTF";
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+}
+
+.rodape nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape nav a img{
+    width: 160px;
+    height: 100px;
+}

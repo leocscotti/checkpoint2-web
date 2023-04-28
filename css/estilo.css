@@ -1,6 +1,7 @@
 @import url("./cabecalho.css");
-@import url("./rodape.css");
+@import url("./rodape2.css");
 @import url("./conteudo.css");
+@import url("./pags.css");
 
 
 *{
@@ -10,14 +11,10 @@
 }
 
 body{
-    background-color: #8d8d8d;
+    background: url(../img/Home.png);
 }
 
-@font-face{
-    font-family: 'Towards';
-    src: url(../Towards/towards_-webfont.woff2) format('woff2'),
-         url(../Towards/towards_-webfont.woff) format('woff');
-}
+
 html{
     font-size: 62.5%;
 }
