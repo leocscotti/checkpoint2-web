@@ -6,29 +6,48 @@
     margin: 0 auto;
 }
 
+section{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    
+}
 div img {
     max-width: 100%;
     display: flex;
+    margin: 0 auto ;
     justify-content: space-around;
     align-items: center;
-    width: 270px;
-    height: 260px;
+    width: 330px;
+    height: 230px;
 }
 
 
 div{
     width: 410px;
-    justify-content: space-around;
-    border: 6px solid #202130;
-    border-radius: 30px;
+    border: 1px solid #201f20;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 16px;
-    background-color: #3a0000;
+    margin: 8px;px;
+}
+div:hover{
+    border: 1px solid #ec145c;
+    color: white;
+}
+div h2:hover{
+    color: #fff;
+    transition: 0.6s;
 }
 div h2{
+    color: #ec145c;
     font-family:  "Gotham HTF";
     font-size: 34px;
+    text-align: center;
+
 }
-.games{
+div figure figcaption{
+    color: white;
     font-family:  "Gotham HTF";
+    text-align: center;
+    font-size: 16px
 }
