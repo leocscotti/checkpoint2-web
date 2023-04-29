@@ -15,10 +15,10 @@ html{
     margin: 0;
     padding: 0;
 }
+
 div{
     background-color: rgba(0, 0, 0, 0.418);
 }
-
 
 div h2{
     color: #ffffff;
@@ -28,9 +28,8 @@ div h2{
     margin-top:6%;
     margin-bottom: 2%;
     left: 10%;
-    
-
 }
+
 section div figure figcaption{
     color: #fff;
     font-family:  "Gotham HTF";

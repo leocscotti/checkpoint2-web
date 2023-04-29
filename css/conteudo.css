@@ -2,7 +2,6 @@
 .conteudo {
     display: flex;
     margin: 5%;
-
     justify-content: center;
 }
 
@@ -25,14 +24,17 @@ div{
     padding: 16px;
     margin: 8px;
 }
+
 div:hover{
     border: 1px solid #ec145c;
     color: white;
 }
+
 div h2:hover{
     color: #fff;
     transition: 0.6s;
 }
+
 div h2{
     color: #ec145c;
     font-family:  "Gotham HTF";
@@ -40,6 +42,7 @@ div h2{
     text-align: center;
 
 }
+
 div figure figcaption{
     color: rgb(0, 0, 0);
     font-family:  "Gotham HTF";
